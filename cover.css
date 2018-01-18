@@ -1,0 +1,154 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+html,
+body {
+  width : 100%;
+  height: 100%;
+  background-color: #303737;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+h2{
+  text-align:center;
+  font-weight:300;
+}
+.jumbotron {
+  text-align: left;
+  width: 50%;
+  height: 350px;
+  background-color:white;
+  color: #303737;
+  padding: 0px;
+
+}
+.profile {
+  text-align: center;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  font-style: oblique;
+  color: rgba(255,255,255,.75);
+}
+.info-text {
+  text-align: left;
+}
+.carousel {
+  width: 50%;
+  height: 100%;
+}
+
+.carousel-inner{
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 350px;
+}
+
+.row {
+  margin-right: 40px;
+  margin-left: 40px;
+  height: auto;
+}
+
+.work-line {
+  width: 75%;
+}
+
+.color-link {
+  color: #00FBDD;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .container {
+    display: list-item;
+    height: auto;
+  }
+
+  body {
+    display: list-item;
+  }
+
+  .carousel {
+    flex: ;
+    width: 100%;
+    height: 225px;
+    background-color: #303737;
+  }
+
+  .jumbotron_text {
+    text-align: left;
+  }
+
+  .social-buttons {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .jumbotron {
+    flex: ;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: #303737;
+    font-size: 10px;
+  }
+  .row {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: auto;
+  }
+}
